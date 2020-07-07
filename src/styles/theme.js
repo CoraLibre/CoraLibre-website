@@ -2,14 +2,14 @@
 
 const theme = {
   font: {
-    primary: `'HK Grotesk Normal'`,
-    secondary: `'HK Grotesk Medium'`,
-    light: `'HK Grotesk Light'`,
-    normal: `'HK Grotesk Normal'`,
-    medium: `'HK Grotesk Medium'`,
-    semibold: `'HK Grotesk Semibold'`,
-    bold: `'HK Grotesk Bold'`,
-    extrabold: `'HK Grotesk Extra Bold'`,
+    primary: `'Lato Regular'`,
+    secondary: `'Lato Regular'`,
+    light: `'Lato Light'`,
+    normal: `'Lato Regular'`,
+    medium: `'Lato Regular'`,
+    semibold: `'Lato Bold'`,
+    bold: `'Lato Bold'`,
+    extrabold: `'Lato Bold'`,
   },
   font_size: {
     xxxsmall: "font-size: 12px;",
