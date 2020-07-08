@@ -1,40 +1,34 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from 'react'
+import {Helmet} from 'react-helmet'
 
-import Layout from 'components/Layout';
-import Container from 'components/Container';
-
-import img_gatsby from 'assets/images/gatsby-astronaut.png';
+import Layout from '../components/Layout'
+import Container from '../components/Container'
+import ReasonsSection from "../components/Sections/reasons"
+import ContactSection from "../components/Sections/contact"
+import SupportSection from "../components/Sections/support"
+import GoalsSection from "../components/Sections/goals"
 
 const IndexPage = () => {
-  return (
-    <Layout pageName="home">
-      <Helmet>
-        <title>Home Page</title>
-      </Helmet>
-      <Container>
-        <p className="gatsby-astronaut">
-          <img src={img_gatsby} alt="Build with Gatsby!" />
-        </p>
-        <h1>Gatsby Sass Starter</h1>
-        <p>
-          Welcome to your new Gatsby site.
-        </p>
-        <p>
-          Now go build something great.
-        </p>
-        <h2>Still Getting Started?</h2>
-        <p>
-          Run the following in your terminal!
-        </p>
-        <pre>
-          <code>
-            gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-sass
-          </code>
-        </pre>
-      </Container>
-    </Layout>
-  );
+    return (
+        <Layout pageName="home">
+            <Helmet>
+                <title>CoraLibre</title>
+            </Helmet>
+            <Container>
+                <h1>CoraLibre</h1>
+                <p>
+                    Eine freie Open Source Implementierung der Corona-Tracing-API von Apple / Google für Android.
+                </p>
+                <p>
+                    Kompatible Alternative zur deutschen Corona-Warn-App, die ohne Google-Play Services auskommt.
+                </p>
+            </Container>
+            <ReasonsSection/>
+            <GoalsSection/>
+            <SupportSection/>
+            <ContactSection/>
+        </Layout>
+    );
 };
 
 export default IndexPage;
