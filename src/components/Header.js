@@ -12,16 +12,16 @@ const Header = () => {
                 </p>
                 <ul>
                     <li>
-                        <Link to="#goals">Ziele</Link>
+                        <Link to="/#goals">Ziele</Link>
                     </li>
                     <li>
-                        <Link to="#reasons">Gründe</Link>
+                        <Link to="/#reasons">Gründe</Link>
                     </li>
                     <li>
-                        <Link to="#support">Unterstützung</Link>
+                        <Link to="/#support">Unterstützung</Link>
                     </li>
                     <li>
-                        <Link to="#contact">Kontakt</Link>
+                        <Link to="/#contact">Kontakt</Link>
                     </li>
                 </ul>
             </Container>
