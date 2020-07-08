@@ -1,79 +1,49 @@
-## ☁️ CoraLibre: Website redone
+# 👓 Gatsby Sass Starter
 
-Work in progress.
+Jumpstart your next Gatsby project with the power of Sass!
 
-### Getting started
+## What This Includes
+* [Yarn](https://yarnpkg.com/en/)
+* [Gatsby](https://www.gatsbyjs.org/)
+* [Sass](https://sass-lang.com)
+* [React Helmet](https://github.com/nfl/react-helmet)
+* [Resolve Src](https://github.com/alampros/gatsby-plugin-resolve-src)
 
-install Gatsby CLI - [more info](https://www.gatsbyjs.org/tutorial/part-zero/)
-```sh
-npm install -g gatsby-cli
+## What This Doesn't Include
+* A bunch of plugins that just complicate a quick bootstrap
+* A bunch of components that you need to clean up
+* Graphql that you don't need yet
+* Stubbed files that you don't need yet
+* Opinionated test and formatting setups (though both of these are encouraged)
+
+# Getting Started
+
+## Requirements
+* [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli)
+* [Yarn](https://yarnpkg.com/en/)
+
+## Quick Start
+Run the following in your favorite terminal:
 ```
-or 
-```sh
+gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-sass
+```
+
+## Starting from Scratch
+* Set up Yarn: https://yarnpkg.com/lang/en/docs/install/#mac-stable)[https://yarnpkg.com/lang/en/docs/install/
+* Install the Gatsby CLI globally:
+```
 yarn global add gatsby-cli
 ```
-
-install dependencies: 
-```sh
-yarn install
+* Inside the directory of your choice, scaffold a new Gatsby site:
 ```
-
-start the development server:
-```sh
-gatsby develop
+gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-sass
 ```
-
-At the project root, compile your application for deployment:
-```sh
-gatsby build
+For example, if I want my installation in `~/Code/new-gatsby-site`, I would navigate to `~/Code` and run:
 ```
-
-Clean the cache to fix certain errors - run the clean command before starting the dev server:
-```sh
-gatsby clean
+gatsby new new-gatsby-site https://github.com/colbyfayock/gatsby-starter-sass
 ```
-
-At the project root, serve the production build of your site:
-```sh
-gatsby serve
+* Navigate to your new directory and run:
 ```
-
-### Styles
-
-This theme uses [styled-components](https://www.styled-components.com/). The theme file contains the base styles `src/styles/theme.js` and the global styles file contains basic element styles and a style reset `src/styles/GlobalStyles.js`.
-
-
-### Deploying to Netlify
-
-The site has been deployed to Netlify. All changes can be viewed here: [CoraLibre on Netlify](https://cocky-payne-82bb01.netlify.app/).
-
-
-### Collect emails with Netlify Forms
-
-For future use: Forms can be added via Netlify. See this guide here: [Form Handling with Gatsby.js V2 and Netlify](https://codebushi.com/form-handling-gatsby-netlify/)
-
-It is neccessary to adjust the privacy policy with commissioned data processing (German: Auftragsdatenverarbeitung) when using Netlify to collect form data.
-
-
-### Netlify form usage example
-
-In `header.js` replacing the existing `<HeaderForm>...</HeaderForm>` components with the following should provide a working example once your site is deployed: 
+yarn develop
 ```
-<HeaderForm
- name="early-access"
- method="post"
- data-netlify-honeypot="bot-field"
- data-netlify="true"
->
-  <input type="hidden" name="bot-field" />
-  <input type="hidden" name="form-name" value="early-access" />
-  <HeaderInput
-   type="email"
-   placeholder="Your email"
-   name="email"
-   id="email"
-   required
-  />
-  <HeaderButton>Early access</HeaderButton>
-</HeaderForm>
-```
+* You should now be running a new Gatsby site locally! 🎉

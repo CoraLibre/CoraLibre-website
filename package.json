@@ -1,50 +1,41 @@
 {
-  "name": "gatsby-starter-saas-marketing",
-  "private": true,
-  "description": "A simple one page marketing starter for saas companies",
-  "version": "0.1.0",
-  "author": "Keegan Burkett <keegan.t.marciniak@gmail.com>",
+  "name": "gatsby-starter-sass",
+  "description": "A Gatsby starter with Sass and no assumptions",
+  "version": "0.1.2",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
-    "gatsby": "^2.15.31",
-    "gatsby-image": "^2.2.24",
-    "gatsby-plugin-manifest": "^2.2.20",
-    "gatsby-plugin-offline": "^3.0.12",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
-    "gatsby-plugin-react-helmet": "^3.1.10",
-    "gatsby-plugin-sharp": "^2.2.28",
-    "gatsby-plugin-styled-components": "^3.1.8",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^2.1.29",
-    "gatsby-transformer-sharp": "^2.2.20",
+    "gatsby": "^2.23.1",
+    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-resolve-src": "^2.1.0",
+    "gatsby-plugin-sass": "^2.3.3",
+    "gatsby-source-filesystem": "^2.3.10",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
-    "react": "^16.10.2",
-    "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^16.10.2",
-    "react-feather": "^2.0.3",
-    "react-helmet": "^5.2.1",
-    "react-scrollspy": "^3.4.0",
-    "styled-components": "^4.4.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
   },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
+  "devDependencies": {},
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "sass",
+    "scss"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby-starter-saas-marketing/node_modules/.bin/gatsby build",
-    "develop": "gatsby-starter-saas-marketing/node_modules/.bin/gatsby develop",
-    "format": "gatsby-starter-saas-marketing/node_modules/.bin/prettier --write \\\"**/*.{js,jsx,json,md}\\\"",
-    "start": "npm run develop",
-    "serve": "gatsby-starter-saas-marketing/node_modules/.bin/gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "develop": "gatsby develop",
+    "lint": "Get started linting your code with Eslint and stylelint",
+    "format": "Get started formatting your code with Eslint, Prettier, and stylelint",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "test": "echo 'Write tests! -> https://gatsby.dev/unit-testing'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/colbyfayock/gatsby-starter-sass"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/colbyfayock/gatsby-starter-sass/issues"
   }
 }
