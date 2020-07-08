@@ -40,25 +40,19 @@ gatsby serve
 
 ### Styles
 
-This starter uses [styled-components](https://www.styled-components.com/). The theme file contains the base styles `src/styles/theme.js` and the global styles file contains basic element styles and a style reset `src/styles/GlobalStyles.js`.
-
-### Navigation
-
-This starter uses [react-anchor-link-smooth-scroll](https://github.com/mauricevancooten/react-anchor-link-smooth-scroll#readme) and [react-scrollspy](https://github.com/makotot/react-scrollspy).
-To link a navigation item to a section simply add an id and string value to a section parent element that corresponds to the same navigation string value in `navigation.js` 
-<br>
-<br>
-⚠️ Only the `Features` section is linked. Product and Pricing sections are intentionally not linked and will throw a `TypeError` in the console when clicked (because they do not exist in the starter). Please reach out if you want help extending this feature. 
+This theme uses [styled-components](https://www.styled-components.com/). The theme file contains the base styles `src/styles/theme.js` and the global styles file contains basic element styles and a style reset `src/styles/GlobalStyles.js`.
 
 
 ### Deploying to Netlify
 
-[Deployment Guide](http://gatsbyjs.org/docs/deploying-to-netlify)
+The site has been deployed to Netlify. All changes can be viewed here: [CoraLibre on Netlify](https://cocky-payne-82bb01.netlify.app/).
 
 
 ### Collect emails with Netlify Forms
 
-[Form Handling with Gatsby.js V2 and Netlify](https://codebushi.com/form-handling-gatsby-netlify/)
+For future use: Forms can be added via Netlify. See this guide here: [Form Handling with Gatsby.js V2 and Netlify](https://codebushi.com/form-handling-gatsby-netlify/)
+
+It is neccessary to adjust the privacy policy with commissioned data processing (German: Auftragsdatenverarbeitung) when using Netlify to collect form data.
 
 
 ### Netlify form usage example

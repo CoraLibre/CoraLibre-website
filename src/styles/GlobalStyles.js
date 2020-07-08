@@ -106,7 +106,13 @@ const GlobalStyles = createGlobalStyle`
 
   a {
     cursor: pointer;
+    color: ${props => props.theme.color.secondary};
+    text-decoration: none;
   }
+  
+  a:hover {
+    color: ${props => props.theme.color.secondary};
+    border-bottom: 1px solid ${props => props.theme.color.secondary};
 
 `
 

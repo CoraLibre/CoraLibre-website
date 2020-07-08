@@ -1,44 +1,31 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Container } from "../global"
+import {Container} from "../global"
 
 const Footer = () => (
-  <FooterWrapper id="footer">
-    <FooterColumnContainer>
-      <FooterColumn>
-        <span>Features</span>
-        <ul>
-          <li>Automation</li>
-          <li>Rewards</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Resources</span>
-        <ul>
-          <li>Compare</li>
-          <li>Blog</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Company</span>
-        <ul>
-          <li>About Us</li>
-          <li>Careers</li>
-        </ul>
-      </FooterColumn>
-      <FooterColumn>
-        <span>Social</span>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-        </ul>
-      </FooterColumn>
-    </FooterColumnContainer>
-    <BrandContainer>
-      <Logo>Finance</Logo>
-    </BrandContainer>
-  </FooterWrapper>
+    <FooterWrapper id="footer">
+        <BrandContainer>
+            <Paragraph>
+                1. Datenschutz auf dieser Webseite<br/>
+                Wir verwenden auf dieser Webseite keine Cookies. Auch Zählpixel bzw. Webbugs oder JavaScripts, die zum
+                BenutzerInnentracking dienen, werden nicht eingesetzt.
+            </Paragraph>
+            <Paragraph>
+                Serverbetreiber der Webseite ist der externe Dienstleister GitHub. Um die Kommunikation zwischen dem
+                Browser des/r Aufrufenden und dieser Webseite zu ermöglichen, muss der Server des Dienstleisters insb.
+                die IP-Adresse, mit der der/die AufruferIn auf unsere Webseite zugreift, verarbeiten. Das "Privacy
+                Statement" von GitHub findet sich <a target="_blank" href="https://help.github.com/en/github/site-policy/github-privacy-statement." rel="noopener noreferrer">hier</a>.
+
+            </Paragraph>
+            <Paragraph>
+                2. E-Mail-Kommunikation<br/>
+                Auch unser E-Mail-Server wird von einem externen Dienstleister betrieben, der E-Mails für uns empfängt,
+                vorhält und verschickt.
+            </Paragraph>
+            <small>© CoraLibre {new Date().getFullYear()}</small>
+        </BrandContainer>
+    </FooterWrapper>
 )
 
 const FooterWrapper = styled.footer`
@@ -47,57 +34,16 @@ const FooterWrapper = styled.footer`
   padding: 0 0 80px;
 `
 
-const Logo = styled.div`
-  font-family: ${props => props.theme.font.extrabold};
-  ${props => props.theme.font_size.regular};
-  color: ${props => props.theme.color.black.regular};
-  text-decoration: none;
-  letter-spacing: 1px;
-  margin: 0;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 9;
-  text-decoration: none;
-  outline: 0px;
+const Paragraph = styled.p`
+  font-family: ${props => props.theme.font.light};
+  ${props => props.theme.font_size.xsmall};
 `
 
 const BrandContainer = styled(Container)`
   position: relative;
-  padding-top: 48px;
-  display: flex;
-  align-items: flex-end;
+  padding-top: 1em;
 
   @media (max-width: ${props => props.theme.screen.sm}) {
-  }
-`
-const FooterColumnContainer = styled(Container)`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 32px;
-  justify-content: start;
-  @media (max-width: ${props => props.theme.screen.sm}) {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 32px;
-  }
-`
-const FooterColumn = styled.div`
-  span {
-    font-size: 16px;
-    font-family: ${props => props.theme.font.bold};
-    color: ${props => props.theme.color.primary};
-  }
-  ul {
-    list-style: none;
-    margin: 16px 0;
-    padding: 0;
-    color: ${props => props.theme.color.black.regular};
-    li {
-      margin-bottom: 12px;
-      font-family: ${props => props.theme.font.normal};
-      font-size: 15px;
-    }
   }
 `
 
