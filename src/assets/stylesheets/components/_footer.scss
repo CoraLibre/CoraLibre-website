@@ -1,6 +1,6 @@
 .Footer-container {
   background-color: $jet-black;
-  padding: 4em 8em 4em 8em;
+  padding: 2em 4em 2em 4em;
   letter-spacing: 0.3pt;
   color: $isabelline;
   width: 100%;
@@ -28,7 +28,7 @@
 
 @media only screen and (max-width: 999px) {
   .Footer-container {
-    padding: 2em 4em 2em 4em;
+    padding: 1em 4em 1em 4em;
   }
 }
 
