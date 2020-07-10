@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 
-import 'assets/stylesheets/application.scss';
+import 'assets/stylesheets/styles.scss';
 
-import Header from 'components/Header';
-import Footer from 'components/Footer';
+import Header from './Header';
+import Footer from './Footer';
 
 const Layout = ({ children, pageName }) => {
 
@@ -18,7 +18,7 @@ const Layout = ({ children, pageName }) => {
   return (
     <>
       <Helmet bodyAttributes={{ class: className}}>
-        <title>Gatsby Site</title>
+        <title>CoraLibre</title>
       </Helmet>
       <div className="wrapper">
         <Header />

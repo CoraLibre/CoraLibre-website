@@ -10,7 +10,7 @@ import HeroSection from "../components/Sections/hero";
 
 const IndexPage = () => {
     return (
-        <Layout pageName="home">
+        <Layout>
             <Helmet>
                 <title>CoraLibre</title>
             </Helmet>

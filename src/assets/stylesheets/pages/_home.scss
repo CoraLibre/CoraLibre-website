@@ -1,7 +1,17 @@
-.page-home {
+.Hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  grid-column-gap: 2em;
+}
 
-  h1 {
-    color: black;
+.Hero-container__text {
+  align-self: center;
+  margin-left: 2em;
+}
+
+.Hero-container__image {
+  img {
+    max-width: 100%;
   }
-
 }

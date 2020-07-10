@@ -1,7 +1,6 @@
 .header {
   width: 100%;
-  color: white;
-  background-color: rebeccapurple;
+  background-color: transparent;
 }
 
 .container {
@@ -23,7 +22,7 @@
 
   a {
     display: block;
-    color: white;
+    color: $rich-black;
     opacity: .8;
     padding: 0 .5em;
   }

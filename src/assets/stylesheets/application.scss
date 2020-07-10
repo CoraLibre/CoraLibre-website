@@ -1,11 +1,8 @@
-@import "src/assets/stylesheets/normalize";
-@import "src/assets/stylesheets/components/_components";
-@import "src/assets/stylesheets/pages/_pages";
-
 body {
   font-family: Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
+  color: $rich-black;
 }
 
 .wrapper {
@@ -15,10 +12,5 @@ body {
 }
 
 main {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  padding: 2em 0;
+  padding: 2em 4em;
 }
