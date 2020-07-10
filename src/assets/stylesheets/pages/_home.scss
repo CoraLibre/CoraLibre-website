@@ -1,3 +1,5 @@
+/* HERO-SECTION */
+
 .Hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,6 +9,33 @@
 
 .Hero-container__text {
   align-self: center;
+
+  h1 {
+    margin-bottom: 0.2em;
+    color: $pine-green;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+
+  hr {
+    width: 90px;
+    border-top: 1px solid $isabelline;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    margin: 0.5em 0;
+  }
+
+  small {
+    text-transform: uppercase;
+    color: $pine-green;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
 }
 
 .Hero-container__image {
@@ -15,6 +44,30 @@
   }
 }
 
+/* GOALS-SECTION */
+
 .Goals-container {
+
+}
+
+.Goals-grid {
+
+}
+
+/* REASONS-SECTION */
+
+.Reasons-container {
+
+}
+
+/* SUPPORT-SECTION */
+
+.Support-container {
+
+}
+
+/* CONTACT-SECTION */
+
+.Contact-container {
 
 }
