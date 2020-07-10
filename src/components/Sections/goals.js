@@ -1,12 +1,11 @@
 import React from "react"
-import Container from "../Container";
 
 
 const GoalsSection = () => {
     return (
-        <Container>
+        <div>
             Ziele
-        </Container>
+        </div>
     );
 };
 

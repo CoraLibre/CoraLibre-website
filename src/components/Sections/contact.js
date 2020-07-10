@@ -1,12 +1,11 @@
 import React from "react"
-import Container from "../Container";
 
 
 const ContactSection = () => {
     return (
-        <Container>
+        <div>
             Kontakt
-        </Container>
+        </div>
     );
 };
 

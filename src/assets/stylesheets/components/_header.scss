@@ -1,15 +1,15 @@
-header {
-
+.header {
   width: 100%;
   color: white;
   background-color: rebeccapurple;
+}
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-    height: 4em;
-    line-height: 4em;
-  }
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+  line-height: 4em;
+
 
   ul {
     list-style: none;
@@ -33,5 +33,5 @@ header {
     font-weight: bold;
     margin: 0;
   }
-
 }
+

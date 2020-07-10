@@ -1,12 +1,10 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-import Container from './Container';
 
 const Header = () => {
     return (
-        <header>
-            <Container>
+        <div className="header container">
                 <p>
                     <Link to="/">CoraLibre</Link>
                 </p>
@@ -24,8 +22,7 @@ const Header = () => {
                         <Link to="/#contact">Kontakt</Link>
                     </li>
                 </ul>
-            </Container>
-        </header>
+        </div>
     );
 };
 

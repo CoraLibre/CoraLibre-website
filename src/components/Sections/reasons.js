@@ -1,12 +1,11 @@
 import React from "react"
-import Container from "../Container";
 
 
 const ReasonsSection = () => {
     return (
-        <Container>
+        <div>
             Gründe
-        </Container>
+        </div>
     );
 };
 
