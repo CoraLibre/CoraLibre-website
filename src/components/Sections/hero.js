@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <div>
             <div className="Hero-container">
-                <div className="Hero-container__text">
+                <div className="Hero-container__text margin-left">
                 <h1>CoraLibre</h1>
                 <p>
                     Eine freie Open Source Implementierung der Corona-Tracing-API von Apple / Google für Android.
