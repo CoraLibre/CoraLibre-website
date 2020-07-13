@@ -1,10 +1,12 @@
 import React from 'react';
 import {Link} from 'gatsby';
+import Headroom from 'react-headroom'
 
 
 const Header = () => {
     return (
-        <div className="header container">
+        <Headroom>
+            <div className="header container">
                 <p>
                     <Link to="/">CoraLibre</Link>
                 </p>
@@ -22,7 +24,8 @@ const Header = () => {
                         <Link to="/#contact">Kontakt</Link>
                     </li>
                 </ul>
-        </div>
+            </div>
+        </Headroom>
     );
 };
 
