@@ -16,5 +16,31 @@
 }
 
 .button {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease;
+
+  cursor: pointer;
+  padding: 8px 12px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+
+  text-align: center;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.green-button {
+  background-color: $pine-green;
+  border: 3px solid $pine-green;
+  color: $isabelline;
+}
+
+.green-button:hover {
+  background-color: $isabelline;
+  color: $pine-green;
+  border: 3px solid $pine-green;
 
 }

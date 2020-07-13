@@ -11,11 +11,12 @@ const HeroSection = () => {
                 <hr/>
                 <p>
                     Nicht jeder kann oder möchte die offizielle Corona-Warn-App nutzen. Wir bieten euch eine freie
-                    Alternative.<br/>
-                    <Link className="link" to="/#reasons">» 5 Gründe für CoraLibre</Link>
+                    Alternative.</p>
+                <p>
+                    Lese hier mehr darüber: <Link className="link" to="/#reasons">5 Gründe für CoraLibre</Link>
                 </p>
                 <p>
-                    Unterstütze uns!
+                    <Link className="button green-button" to="/#support">Unterstütze uns!</Link>
                 </p>
             </div>
             <div className="Hero-container__image">
