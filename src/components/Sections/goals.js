@@ -3,7 +3,7 @@ import React from "react"
 
 const GoalsSection = () => {
     return (
-        <div className="Goals-container margin-left">
+        <div className="Goals-container margin-left" id='goals'>
             <h2>Unsere Ziele</h2>
             <div className="Goals-grid">
                 <div>

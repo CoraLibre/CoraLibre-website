@@ -2,6 +2,19 @@
   margin-left: 2em;
 }
 
+.link {
+  color: $pine-green;
+  text-decoration: none;
+  border-bottom: 1px solid $pine-green;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: $jet-black;
+  border-bottom: 0;
+}
+
 .button {
 
 }
