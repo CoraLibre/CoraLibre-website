@@ -1,6 +1,7 @@
-import React from 'react';
-import {Link} from 'gatsby';
+import React from 'react'
+import {Link} from 'gatsby'
 import Headroom from 'react-headroom'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const Header = () => {
@@ -12,16 +13,16 @@ const Header = () => {
                 </p>
                 <ul>
                     <li>
-                        <Link to="/#reasons">Gründe</Link>
+                        <AnchorLink href="#reasons">Gründe</AnchorLink>
                     </li>
                     <li>
-                        <Link to="/#goals">Ziele</Link>
+                        <AnchorLink href="#goals">Ziele</AnchorLink>
                     </li>
                     <li>
-                        <Link to="/#support">Unterstützung</Link>
+                        <AnchorLink to="#support">Unterstützung</AnchorLink>
                     </li>
                     <li>
-                        <Link to="/#contact">Kontakt</Link>
+                        <AnchorLink to="#contact">Kontakt</AnchorLink>
                     </li>
                 </ul>
             </div>
