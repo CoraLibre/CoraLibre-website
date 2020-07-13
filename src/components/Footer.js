@@ -12,9 +12,9 @@ const Footer = () => {
             <br/>
                 <AnchorLink href="#goals">Ziele</AnchorLink>
             <br/>
-                <AnchorLink to="#support">Unterstützung</AnchorLink>
+                <AnchorLink href="#support">Unterstützung</AnchorLink>
             <br/>
-                <AnchorLink to="#contact">Kontakt</AnchorLink>
+                <AnchorLink href="#contact">Kontakt</AnchorLink>
             <br/>
             <hr className="Footer-line"/>
             <p><small>

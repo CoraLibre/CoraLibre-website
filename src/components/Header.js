@@ -19,10 +19,10 @@ const Header = () => {
                         <AnchorLink href="#goals">Ziele</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="#support">Unterstützung</AnchorLink>
+                        <AnchorLink href="#support">Unterstützung</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="#contact">Kontakt</AnchorLink>
+                        <AnchorLink href="#contact">Kontakt</AnchorLink>
                     </li>
                 </ul>
             </div>
