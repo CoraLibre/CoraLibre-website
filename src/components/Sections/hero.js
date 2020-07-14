@@ -1,6 +1,7 @@
 import React from "react"
 import hero_image from "../../assets/images/header.png"
 import {Link} from "gatsby"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const HeroSection = () => {
@@ -13,10 +14,10 @@ const HeroSection = () => {
                     Nicht jeder kann oder möchte die offizielle Corona-Warn-App nutzen. Wir bieten euch eine freie
                     Alternative.</p>
                 <p>
-                    Lese hier mehr darüber: <Link className="link" to="/#reasons">5 Gründe für CoraLibre</Link>
+                    Lese hier mehr darüber: <AnchorLink className="link" href="#reasons">4 Gründe für CoraLibre</AnchorLink>
                 </p>
                 <p>
-                    <Link className="button green-button" to="/#support">Unterstütze uns!</Link>
+                    <AnchorLink className="button green-button" href="#support">Unterstütze uns!</AnchorLink>
                 </p>
             </div>
             <div className="Hero-container__image">
