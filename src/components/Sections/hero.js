@@ -1,6 +1,5 @@
 import React from "react"
 import hero_image from "../../assets/images/header.png"
-import {Link} from "gatsby"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
