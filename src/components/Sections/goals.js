@@ -18,7 +18,7 @@ const GoalsSection = () => {
                 </div>
             </div>
             <p>Hilf uns, diese Ziele zu verwirklichen und unterstütze uns gerne als Entwickler oder beim Community Management.</p>
-            <p><AnchorLink href="#contact" className="button white-button">Kontakt aufnehmen</AnchorLink></p>
+            <p><AnchorLink href="#contact" className="button green-button">Kontakt aufnehmen</AnchorLink></p>
         </div>
     );
 };

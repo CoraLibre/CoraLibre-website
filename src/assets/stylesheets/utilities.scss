@@ -47,13 +47,13 @@
 /* For colored backgrounds */
 
 .white-button {
-  background-color: transparent;
+  background-color: $isabelline;
   border: 3px solid $isabelline;
-  color: $isabelline;
+  color: $lapislazuli;
 }
 
 .white-button:hover {
-  background-color: $isabelline;
-  color: $pine-green;
+  background-color: transparent;
+  color: $isabelline;
   border: 3px solid $isabelline;
 }

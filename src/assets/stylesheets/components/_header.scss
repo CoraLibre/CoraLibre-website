@@ -26,8 +26,13 @@
   a {
     display: block;
     color: $rich-black;
-    opacity: .8;
     padding: 0 .5em;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: $pine-green;
   }
 
   p {
