@@ -4,10 +4,10 @@ import { Helmet } from 'react-helmet';
 
 import 'assets/stylesheets/styles.scss';
 
-import Header from './Header';
+import Navigation from './Navigation';
 import Footer from './Footer';
 
-const Layout = ({ children, pageName }) => {
+const Layout = ({ children, pageName, location }) => {
 
   let className = '';
 
@@ -21,7 +21,7 @@ const Layout = ({ children, pageName }) => {
         <title>CoraLibre</title>
       </Helmet>
       <div className="wrapper">
-        <Header />
+        <Navigation location={location}/>
         <main>{ children }</main>
         <Footer />
       </div>

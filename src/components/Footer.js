@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from "gatsby"
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Footer = () => {
     return (
@@ -8,13 +7,13 @@ const Footer = () => {
             <h3>
                 <Link to="/">CoraLibre</Link>
             </h3>
-                <AnchorLink href="#reasons">Gründe</AnchorLink>
+                <Link to="/#reasons">Gründe</Link>
             <br/>
-                <AnchorLink href="#goals">Ziele</AnchorLink>
+                <Link to="/#goals">Ziele</Link>
             <br/>
-                <AnchorLink href="#support">Unterstützung</AnchorLink>
+                <Link to="/#support">Unterstützung</Link>
             <br/>
-                <AnchorLink href="#contact">Kontakt</AnchorLink>
+                <Link to="/#contact">Kontakt</Link>
             <br/>
             <hr className="Footer-line"/>
             <p><small>
