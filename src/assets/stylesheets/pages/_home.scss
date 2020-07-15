@@ -47,7 +47,9 @@
 /* GOALS-SECTION */
 
 .Goals-container {
-
+  background-color: $pine-green;
+  color: white;
+  padding: 2em;
 }
 
 .Goals-grid {
@@ -57,17 +59,29 @@
 /* REASONS-SECTION */
 
 .Reasons-container {
+  padding: 2em;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.Reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1em;
 
 }
 
 /* SUPPORT-SECTION */
 
 .Support-container {
-
+  padding: 2em;
 }
 
 /* CONTACT-SECTION */
 
 .Contact-container {
-
+  padding: 2em;
+  background-color: $isabelline;
 }

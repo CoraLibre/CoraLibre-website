@@ -42,5 +42,18 @@
   background-color: $isabelline;
   color: $pine-green;
   border: 3px solid $pine-green;
+}
 
+/* For colored backgrounds */
+
+.white-button {
+  background-color: transparent;
+  border: 3px solid $isabelline;
+  color: $isabelline;
+}
+
+.white-button:hover {
+  background-color: $isabelline;
+  color: $pine-green;
+  border: 3px solid $isabelline;
 }
