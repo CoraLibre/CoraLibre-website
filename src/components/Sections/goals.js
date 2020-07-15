@@ -8,16 +8,14 @@ const GoalsSection = () => {
             <h2>Wir bauen eine freie und transparente Alternative zur offiziellen Corona-Warn-App.</h2>
             <div className="Goals-grid">
                 <div>
-                    Unser Ziel ist es, vollkommen transparente Implementierung des Contact-Tracing-Protokolls für Android zu bauen.
-                </div>
-                <div>
-                    Eine alternative App zur deutschen Corona-Warn-App, die auch andere Betriebssysteme und Nutzer älterer Smartphones unterstützt.
-                </div>
-                <div>
-                    Dabei übernehmen wir viel vom ursprünglichen Code der Corona-Warn-App und garantieren so eine Kompabilität zwischen beiden Apps.
+                    <p>
+                        Unser Ziel ist es, vollkommen transparente Implementierung des Contact-Tracing-Protokolls für Android zu bauen.
+                        Dabei wollen wir auch andere Betriebssysteme und Nutzer älterer Smartphones unterstützen.
+                        Bei der Implementierung übernehmen wir viel vom ursprünglichen Code der Corona-Warn-App und garantieren so eine Kompabilität zwischen beiden Apps.
+                    </p>
                 </div>
             </div>
-            <p>Hilf uns, diese Ziele zu verwirklichen und unterstütze uns gerne als Entwickler oder beim Community Management.</p>
+            <p>Hilf uns, diese Ziele zu verwirklichen und unterstütze uns gerne bei der Weiterentwicklung der App.</p>
             <p><AnchorLink href="#contact" className="button green-button">Kontakt aufnehmen</AnchorLink></p>
         </div>
     );
