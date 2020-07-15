@@ -5,10 +5,10 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 const GoalsSection = () => {
     return (
         <div className="Goals-container margin-left" id='goals'>
-            <h2>Unsere Ziele</h2>
+            <h2>Wir bauen eine freie und transparente Alternative zur offiziellen Corona-Warn-App.</h2>
             <div className="Goals-grid">
                 <div>
-                    Wir bauen eine freie und vollkommen transparente Implementierung des Contact-Tracing-Protokolls für Android.
+                    Unser Ziel ist es, vollkommen transparente Implementierung des Contact-Tracing-Protokolls für Android zu bauen.
                 </div>
                 <div>
                     Eine alternative App zur deutschen Corona-Warn-App, die auch andere Betriebssysteme und Nutzer älterer Smartphones unterstützt.
