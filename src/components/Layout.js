@@ -7,14 +7,7 @@ import 'assets/stylesheets/styles.scss';
 import Navigation from './Navigation';
 import Footer from './Footer';
 
-const Layout = ({children, pageName, location}) => {
-
-    let className = '';
-
-    if (pageName) {
-        className = `${className} page-${pageName}`;
-    }
-
+const Layout = ({children, location}) => {
     return (
         <div>
             <Helmet>

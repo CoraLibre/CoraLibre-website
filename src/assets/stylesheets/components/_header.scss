@@ -2,8 +2,9 @@
   background: white;
   margin-bottom: 0.45rem;
   top: 0;
-  width: 100%;
+  max-width: 100vw;
   z-index: 3;
+  padding: 1em;
 }
 
 .container {
@@ -29,6 +30,7 @@
     padding: 0 .5em;
     text-decoration: none;
     transition: color 0.3s;
+    font-weight: 700;
   }
 
   a:hover {
