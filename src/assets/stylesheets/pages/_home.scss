@@ -88,6 +88,12 @@
 }
 
 .Contact-grid {
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1em;
+  align-items: center;
+}
+
+.Contact-image {
+  width: 400px;
 }

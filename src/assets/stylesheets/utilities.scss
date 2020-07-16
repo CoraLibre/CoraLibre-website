@@ -57,3 +57,12 @@
   color: $isabelline;
   border: 3px solid $isabelline;
 }
+
+/* To be put over regular titles such as h1, h2, h3 ... */
+
+.subtitle {
+  text-transform: uppercase;
+  color: $lapislazuli;
+  font-weight: 700;
+  letter-spacing: 1pt;
+}

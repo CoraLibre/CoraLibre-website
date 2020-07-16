@@ -10,8 +10,7 @@ const HeroSection = () => {
                 <h1>Die Alternative zur Corona-Warn-App ohne Google Services.</h1>
                 <hr/>
                 <p>
-                    Nicht jeder kann oder möchte die offizielle Corona-Warn-App nutzen. Wir bieten euch eine freie
-                    Alternative.</p>
+                    Eine transparente OpenSource-Lösung für ältere Smartphones und andere Betriebssysteme.</p>
                 <p>
                     Lese hier mehr darüber: <AnchorLink className="link" href="#reasons">4 Gründe für CoraLibre</AnchorLink>
                 </p>
