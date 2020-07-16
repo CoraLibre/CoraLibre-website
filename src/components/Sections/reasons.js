@@ -4,7 +4,8 @@ import React from "react"
 const ReasonsSection = () => {
     return (
         <div className="Reasons-container margin-left" id='reasons'>
-            <h2>4 Gründe für die CoraLibre-App</h2>
+            <small className="subtitle white">Warum CoraLibre?</small>
+            <h2>4 Gründe für die CoraLibre-App:</h2>
             <div className="Reasons-grid">
                 <div>
                     <h4>1. Support für Nicht-Android-Nutzer</h4>
@@ -13,7 +14,7 @@ const ReasonsSection = () => {
                     </p>
                 </div>
                 <div>
-                    <h4>2. Kein Google-Play-Service nötig</h4>
+                    <h4>2. Keine Google-Play-Services nötig</h4>
                     <p>
                     CoraLibre kommt ohne Google-Play-Services aus und bietet die selben Funktionen wie die offizielle
                     Corona-Warn-App.

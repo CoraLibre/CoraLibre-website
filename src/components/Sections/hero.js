@@ -8,7 +8,6 @@ const HeroSection = () => {
         <div className="Hero-container" id='start'>
             <div className="Hero-container__text margin-left">
                 <h1>Die Alternative zur Corona-Warn-App ohne Google Services.</h1>
-                <hr/>
                 <p>
                     Eine transparente OpenSource-Lösung für ältere Smartphones und andere Betriebssysteme.</p>
                 <p>

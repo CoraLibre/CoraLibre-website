@@ -4,6 +4,7 @@ import React from "react"
 const SupportSection = () => {
     return (
         <div className="Support-container margin-left" id='support'>
+            <small className="subtitle white">Unterstützung</small>
             <h2>Auch du kannst uns dabei helfen, CoraLibre zu verwirklichen!</h2>
             <p>Die CoraLibre-App wird ehrenamtlich und durch Förderprojekte stetig weiterentwickelt.
                 Trotzdem brauchen wir eure Unterstützung und freuen uns über helfende Hände. Wenn du dich als Entwickler angesprochen fühlst, zögere nicht und nimm Kontakt zu uns auf.</p>

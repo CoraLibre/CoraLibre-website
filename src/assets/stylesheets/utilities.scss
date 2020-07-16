@@ -1,6 +1,12 @@
+/* Overall margin; to be added to every container
+to keep layout consistency
+ */
+
 .margin-left {
   margin-left: 2em;
 }
+
+/* Links */
 
 .link {
   color: $pine-green;
@@ -14,6 +20,8 @@
   color: $jet-black;
   border-bottom: 0;
 }
+
+/* Buttons */
 
 .button {
   box-sizing: inherit;
@@ -44,7 +52,7 @@
   border: 3px solid $pine-green;
 }
 
-/* For colored backgrounds */
+/* Button classes for colored backgrounds */
 
 .white-button {
   background-color: $isabelline;
@@ -63,6 +71,13 @@
 .subtitle {
   text-transform: uppercase;
   color: $lapislazuli;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 1pt;
+}
+
+/* Helper class to overwrite color class;
+for example to be used on colored backgrounds for better readability */
+
+.white {
+  color: white;
 }

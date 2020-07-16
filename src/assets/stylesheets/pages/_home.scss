@@ -21,15 +21,6 @@
     line-height: 1.5em;
   }
 
-  hr {
-    width: 90px;
-    border-top: 1px solid $isabelline;
-    border-left: 0;
-    border-bottom: 0;
-    border-right: 0;
-    margin: 0.5em 0;
-  }
-
   small {
     text-transform: uppercase;
     color: $pine-green;
@@ -42,6 +33,21 @@
   img {
     max-width: 100%;
   }
+}
+
+/* QUOTE SECTION */
+
+.Quote-container {
+  background-color: $lapislazuli;
+  margin-top: 2em;
+  padding: 2em;
+  color: white;
+}
+
+.Quote-paragraph {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* GOALS-SECTION */
@@ -61,10 +67,6 @@
   background-color: $pine-green;
   color: white;
   margin-top: 3em;
-  h2 {
-    text-align: center;
-    margin-top: 0;
-  }
 }
 
 .Reasons-grid {
