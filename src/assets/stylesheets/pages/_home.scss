@@ -87,9 +87,23 @@
 /* SUPPORT-SECTION */
 
 .Support-container {
-  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   color: white;
   background-color: $lapislazuli;
+}
+
+.Support-text-item {
+  padding: 2em;
+}
+
+.Support-image-item {
+  img {
+    width: 400px;
+  }
+  align-self: center;
+  text-align: center;
+
 }
 
 /* CONTACT-SECTION */
