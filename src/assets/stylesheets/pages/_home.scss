@@ -75,6 +75,15 @@
   grid-column-gap: 1em;
 }
 
+.Reasons-grid-item {
+  img {
+    width: 150px;
+  }
+  h4 {
+    margin-top: 0;
+  }
+}
+
 /* SUPPORT-SECTION */
 
 .Support-container {
