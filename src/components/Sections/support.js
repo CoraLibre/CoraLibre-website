@@ -17,7 +17,7 @@ const SupportSection = () => {
                 </a></p>
             </div>
             <div className="Support-image-item">
-                <img src={support_image} alt="Eine Frau arbeitet am Computer" className="Support-image"/>
+                <img src={support_image} alt="Ein Mann arbeitet am Computer" className="Support-image"/>
             </div>
         </div>
     );
