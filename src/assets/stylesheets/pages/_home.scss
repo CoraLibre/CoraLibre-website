@@ -35,6 +35,20 @@
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .Hero-container {
+    grid-template-columns: 1fr;
+  }
+  .Hero-container__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 80%;
+    }
+  }
+}
+
 /* QUOTE SECTION */
 
 .Quote-container {
@@ -76,11 +90,42 @@
 }
 
 .Reasons-grid-item {
+  display: flex;
+  align-items: center;
   img {
-    width: 150px;
+    width: 115px;
+    padding-right: 1rem;
   }
   h3 {
     margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+
+}
+
+.Reasons-grid-item-text-wrapper{
+  display: flex;
+  flex-direction: column;
+  p {
+    margin-top: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .Reasons-grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .Reasons-grid-item {
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+      align-self: flex-start;
+    }
   }
 }
 
@@ -103,7 +148,17 @@
   }
   align-self: center;
   text-align: center;
+}
 
+@media only screen and (max-width: 800px) {
+  .Support-container {
+    grid-template-columns: 1fr;
+  }
+  .Support-image-item {
+    img {
+      display: none;
+    }
+  }
 }
 
 /* CONTACT-SECTION */
@@ -121,4 +176,23 @@
 
 .Contact-image {
   width: 400px;
+}
+@media only screen and (max-width: 750px) {
+  .Contact-grid {
+    grid-template-columns: 1fr;
+
+    div:nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-row: 2;
+    }
+    div:nth-child(2) {
+      grid-row: 1;
+    }
+  }
+  .Contact-image {
+    max-width: 100%;
+  }
+
 }

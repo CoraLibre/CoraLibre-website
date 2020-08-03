@@ -41,6 +41,26 @@
     font-size: 2em;
     font-weight: bold;
     margin: 0;
+
+    a {
+      color: $jet-black;
+    }
+
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    white-space: nowrap;
+    height: 5.5em;
+  }
+}
+@media only screen and (max-width: 350px) {
+    li {
+      a {
+        font-size: 0.9rem;
+      }
+    }
+  }
 
