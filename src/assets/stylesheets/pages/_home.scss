@@ -119,6 +119,14 @@
     grid-template-columns: 1fr;
     justify-content: center;
   }
+
+  .Reasons-grid-item {
+    img {
+      @-moz-document url-prefix() {
+        width: 150px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
