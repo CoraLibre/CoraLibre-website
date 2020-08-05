@@ -94,6 +94,9 @@
   align-items: center;
   img {
     width: 115px;
+    @-moz-document url-prefix() {
+      width: 250px;
+    }
     padding-right: 1rem;
   }
   h3 {
