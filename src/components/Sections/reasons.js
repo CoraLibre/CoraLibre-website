@@ -15,7 +15,7 @@ const ReasonsSection = () => {
                     <div className="Reasons-grid-item-text-wrapper">
                     <h3>Support für andere Betriebssysteme</h3>
                     <p>
-                        CoraLibre ist auch für Nutzer zugänglich, die nicht das Android- oder Apple-Betriebssystem nutzen, sondern zum Beispiel LineageOS und /e/.
+                        CoraLibre ist auch für Nutzer zugänglich, die Android ohne Google Play Services nutzen.
                     </p>
                     </div>
                 </div>
@@ -34,9 +34,9 @@ const ReasonsSection = () => {
                     <img src={old_icon} alt="Älteres Modell eines Smartphones"/>
                     <div className="Reasons-grid-item-text-wrapper">
 
-                    <h3>Auch ältere Smartphones werden unterstützt</h3>
+                    <h3>Auch ältere Smartphones unterstützt</h3>
                     <p>
-                        Auch Nutzer, die nicht über die benötigten System-Anforderungen für die offizielle App verfügen, können CoraLibre nutzen.
+                        Auch Nutzer, die nicht über die benötigten System-Anforderungen für die offizielle App verfügen, können CoraLibre nutzen.*
                     </p>
                     </div>
                 </div>
@@ -46,11 +46,12 @@ const ReasonsSection = () => {
 
                     <h3>Transparenter Quellcode</h3>
                     <p>
-                        Der Quellcode des offiziellen Google Tracing Protokolls ist nicht offen zugänglich, bei CoraLibre kann man diesen jedoch komplett einsehen.
+                        Der Quellcode des offiziellen Google Tracing Protokolls ist nicht offen zugänglich, bei CoraLibre kann man ihn hingegen komplett einsehen.
                     </p>
                     </div>
                 </div>
             </div>
+            <small>* Voraussetzung ist ein Android-Smartphone, welches über eine Bluetooth LE Unterstützung verfügt.</small>
         </div>
     );
 };

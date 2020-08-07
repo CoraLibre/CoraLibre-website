@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <p>
                     Eine transparente OpenSource-Lösung für ältere Smartphones und andere Betriebssysteme.</p>
                 <p>
-                    Lese hier mehr darüber: <AnchorLink className="link" href="#reasons">4 Gründe für CoraLibre</AnchorLink>
+                    Lies hier mehr darüber: <AnchorLink className="link" href="#reasons">4 Gründe für CoraLibre</AnchorLink>
                 </p>
                 <p>
                     <AnchorLink className="button green-button" href="#support">Unterstütze uns!</AnchorLink>

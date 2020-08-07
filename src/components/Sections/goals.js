@@ -10,8 +10,8 @@ const GoalsSection = () => {
             <div className="Goals-grid">
                 <div>
                     <p>
-                        Unser Ziel ist es, eine vollkommen transparente Implementierung des Contact-Tracing-Protokolls für Android zu bauen.
-                        Dabei wollen wir auch andere Betriebssysteme und Nutzer älterer Smartphones unterstützen.
+                        Unser Ziel ist, eine vollkommen transparente Implementierung des Contact-Tracing-Protokolls für Android zu entwickeln.
+                        Dabei unterstützen wir auch andere Betriebssysteme und Nutzer älterer Smartphones.
                         Bei der Implementierung übernehmen wir viel vom ursprünglichen Code der Corona-Warn-App und garantieren so eine Kompabilität zwischen beiden Apps.
                     </p>
                 </div>
