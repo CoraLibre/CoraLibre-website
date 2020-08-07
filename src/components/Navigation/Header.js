@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import placeholder from "../../assets/images/placeholder.png"
 
 
 const Header = ({location}) => {
@@ -8,42 +9,44 @@ const Header = ({location}) => {
 
     if (pathname.includes(`datenschutz`)) {
         return (
-            <div className="header container">
-                <p>
-                    <Link to="/">CoraLibre</Link>
-                </p>
-                <ul>
-                    <li>
-                        <Link to="/#reasons">Gründe</Link>
-                    </li>
-                    <li>
-                        <Link to="/#support">Unterstützung</Link>
-                    </li>
-                    <li>
-                        <Link to="/#contact">Kontakt</Link>
-                    </li>
-                </ul>
+            <div className="container">
+                    <Link to="/">
+                        <img src={placeholder} alt="CoraLibre Logo" className="logo-image"/>
+                    </Link>
+
+                    <ul>
+                        <li>
+                            <Link to="/#reasons">Warum?</Link>
+                        </li>
+                        <li>
+                            <Link to="/#support">Unterstützung</Link>
+                        </li>
+                        <li>
+                            <Link to="/#contact">Kontakt</Link>
+                        </li>
+                    </ul>
             </div>
         );
     } else
-    return (
-            <div className="header container">
-                <p>
-                    <Link to="/">CoraLibre</Link>
-                </p>
-                <ul>
-                    <li>
-                        <AnchorLink href="#reasons">Gründe</AnchorLink>
-                    </li>
-                    <li>
-                        <AnchorLink href="#support">Unterstützung</AnchorLink>
-                    </li>
-                    <li>
-                        <AnchorLink href="#contact">Kontakt</AnchorLink>
-                    </li>
-                </ul>
+        return (
+            <div className="container">
+                <Link to="/">
+                    <img src={placeholder} alt="CoraLibre Logo" className="logo-image"/>
+                </Link>
+
+                    <ul>
+                        <li>
+                            <AnchorLink href="#reasons">Warum?</AnchorLink>
+                        </li>
+                        <li>
+                            <AnchorLink href="#support">Unterstützung</AnchorLink>
+                        </li>
+                        <li>
+                            <AnchorLink href="#contact">Kontakt</AnchorLink>
+                        </li>
+                    </ul>
             </div>
-    );
+        );
 }
 
 export default Header

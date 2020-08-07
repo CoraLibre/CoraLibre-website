@@ -4,15 +4,13 @@
   top: 0;
   max-width: 100vw;
   z-index: 3;
-  padding: 1em;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 4em;
-  line-height: 4em;
-  max-width: 1200px;
   margin: 0 auto;
 
   ul {
@@ -34,6 +32,13 @@
     font-weight: 700;
   }
 
+  .logo-image {
+    height: auto;
+    max-width: 70%;
+    opacity: 1;
+    border: 0;
+  }
+
   a:hover {
     color: $pine-green;
   }
@@ -52,16 +57,20 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    flex-direction: column;
     white-space: nowrap;
     height: 5.5em;
   }
+  .logo-image {
+    height: auto;
+    max-width: 100%;
+  }
 }
+
 @media only screen and (max-width: 350px) {
-    li {
-      a {
-        font-size: 0.9rem;
-      }
+  li {
+    a {
+      font-size: 0.9rem;
     }
   }
+}
 

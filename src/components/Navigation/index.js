@@ -1,13 +1,15 @@
 import React from "react"
-import { Location } from "@reach/router"
+import {Location} from "@reach/router"
 import Header from "./Header"
 import Headroom from "react-headroom"
 
 const Navigation = () => (
     <Location>
-        {({ location }) => (
+        {({location}) => (
             <Headroom>
-                <Header location={location}/>
+                <div className="header">
+                    <Header location={location}/>
+                </div>
             </Headroom>
         )}
     </Location>
