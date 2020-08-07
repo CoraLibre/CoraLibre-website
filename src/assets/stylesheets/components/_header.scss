@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4em;
+  height: 5.5em;
   margin: 0 auto;
 
   ul {
@@ -35,8 +35,7 @@
   .logo-image {
     height: auto;
     max-width: 70%;
-    opacity: 1;
-    border: 0;
+    z-index: 1;
   }
 
   a:hover {
@@ -59,10 +58,6 @@
   .container {
     white-space: nowrap;
     height: 5.5em;
-  }
-  .logo-image {
-    height: auto;
-    max-width: 100%;
   }
 }
 
