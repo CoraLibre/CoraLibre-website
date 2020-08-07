@@ -1,0 +1,84 @@
+/* REASONS-SECTION */
+
+.Reasons-container {
+  padding: 2em;
+  background-color: $pine-green;
+  color: white;
+  margin-top: 3em;
+}
+
+.Reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+  margin-bottom: 2em;
+}
+
+.Reasons-goal-section {
+  background-color: white;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.Reasons-grid-item {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 115px;
+    @-moz-document url-prefix() {
+      width: 250px;
+    }
+    padding-right: 1rem;
+  }
+
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+
+}
+
+.Reasons-grid-item-text-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin-top: 0.5em;
+  }
+}
+
+
+/* MEDIA QUERIES */
+/* Collected at the bottom to avoid duplicate code passages */
+/* and to avoid confusion with duplicate size declarations */
+
+@media only screen and (max-width: 999px) {
+  .Reasons-grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .Reasons-grid-item {
+    img {
+      @-moz-document url-prefix() {
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Reasons-container {
+    margin-top: 1em;
+  }
+
+  .Reasons-grid-item {
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      align-self: flex-start;
+    }
+  }
+}

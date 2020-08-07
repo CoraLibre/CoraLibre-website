@@ -1,0 +1,27 @@
+/* QUOTE SECTION */
+
+.Quote-container {
+  background-color: $lapislazuli;
+  margin-top: 2em;
+  padding: 2em;
+  color: white;
+}
+
+.Quote-paragraph {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  .Quote-container {
+    margin-top: 1em;
+    padding: 0.5em;
+  }
+
+  .Quote-paragraph {
+    font-size: 1.2em;
+  }
+}

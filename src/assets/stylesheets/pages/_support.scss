@@ -1,0 +1,37 @@
+/* SUPPORT-SECTION */
+
+.Support-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  background-color: $lapislazuli;
+  margin-top: 3em;
+}
+
+.Support-text-item {
+  padding: 2em;
+}
+
+.Support-image-item {
+  img {
+    width: 400px;
+  }
+
+  align-self: center;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 800px) {
+  .Support-container {
+    grid-template-columns: 1fr;
+    margin-top: 1em;
+  }
+
+  .Support-image-item {
+    img {
+      display: none;
+    }
+  }
+}

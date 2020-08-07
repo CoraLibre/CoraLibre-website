@@ -1,0 +1,44 @@
+/* CONTACT-SECTION */
+
+.Contact-container {
+  padding: 2em;
+  margin-top: 3em;
+}
+
+.Contact-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1em;
+  align-items: center;
+}
+
+.Contact-image {
+  width: 400px;
+}
+
+@media only screen and (max-width: 750px) {
+  .Contact-grid {
+    grid-template-columns: 1fr;
+
+    div:nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-row: 2;
+    }
+
+    div:nth-child(2) {
+      grid-row: 1;
+    }
+  }
+
+  .Contact-image {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Contact-container {
+    margin-top: 1em;
+  }
+}
