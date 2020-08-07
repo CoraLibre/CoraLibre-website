@@ -7,7 +7,7 @@ const PrivacyPolicyPage = () => {
     return (
         <Layout pageName="home">
             <Helmet>
-                <title>CoraLibre - Datenschutzerklärung</title>
+                <title>CoraLibre - Impressum & Datenschutzerklärung</title>
             </Helmet>
             <h1>Datenschutzerklärung</h1>
 
@@ -29,6 +29,10 @@ const PrivacyPolicyPage = () => {
             <p>Auch unser E-Mail-Server wird von einem externen Dienstleister betrieben, der E-Mails für uns empfängt,
                 vorhält und verschickt.
             </p>
+            <h2>
+                Impressum
+            </h2>
+            <p>Daten</p>
         </Layout>
     );
 };

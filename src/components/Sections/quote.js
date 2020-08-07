@@ -6,7 +6,7 @@ const QuoteSection = () => {
         <div className="Quote-container margin-left">
             <Fade>
                 <p className="Quote-paragraph">
-                    CoraLibre ist eine offene Alternative zur offiziellen Corona-Warn-App und funktioniert ohne Google Services. Das von CoraLibre verwendete Tracing-Protokoll ist komplett transparent.
+                    CoraLibre ist eine offene Alternative zur offiziellen Corona-Warn-App und funktioniert ohne intransparente Google Services.
                 </p>
             </Fade>
         </div>

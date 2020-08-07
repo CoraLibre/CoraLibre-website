@@ -8,7 +8,7 @@ const Footer = () => {
                 <Link to="/">CoraLibre</Link>
             </h3>
             <p><small>
-                <Link to="/datenschutz">Datenschutzerklärung</Link><br/>
+                <Link to="/datenschutz">Impressum & Datenschutzerklärung</Link><br/>
                 &copy; {new Date().getFullYear()} CoraLibre<br/>
             </small>
             </p>

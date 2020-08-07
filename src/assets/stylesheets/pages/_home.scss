@@ -35,20 +35,6 @@
   }
 }
 
-@media only screen and (max-width: 750px) {
-  .Hero-container {
-    grid-template-columns: 1fr;
-  }
-  .Hero-container__image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img {
-      width: 80%;
-    }
-  }
-}
-
 /* QUOTE SECTION */
 
 .Quote-container {
@@ -64,15 +50,6 @@
   text-align: center;
 }
 
-/* GOALS-SECTION */
-
-.Goals-container {
-  padding: 2em;
-}
-
-.Goals-grid {
-
-}
 
 /* REASONS-SECTION */
 
@@ -99,6 +76,7 @@
 .Reasons-grid-item {
   display: flex;
   align-items: center;
+
   img {
     width: 115px;
     @-moz-document url-prefix() {
@@ -106,6 +84,7 @@
     }
     padding-right: 1rem;
   }
+
   h3 {
     margin-top: 0.5em;
     margin-bottom: 0;
@@ -113,37 +92,12 @@
 
 }
 
-.Reasons-grid-item-text-wrapper{
+.Reasons-grid-item-text-wrapper {
   display: flex;
   flex-direction: column;
+
   p {
     margin-top: 0.5em;
-  }
-}
-
-@media only screen and (max-width: 999px) {
-  .Reasons-grid {
-    grid-template-columns: 1fr;
-    justify-content: center;
-  }
-
-  .Reasons-grid-item {
-    img {
-      @-moz-document url-prefix() {
-        width: 150px;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 600px) {
-
-  .Reasons-grid-item {
-    flex-direction: column;
-    justify-content: center;
-    h3 {
-      align-self: flex-start;
-    }
   }
 }
 
@@ -165,19 +119,9 @@
   img {
     width: 400px;
   }
+
   align-self: center;
   text-align: center;
-}
-
-@media only screen and (max-width: 800px) {
-  .Support-container {
-    grid-template-columns: 1fr;
-  }
-  .Support-image-item {
-    img {
-      display: none;
-    }
-  }
 }
 
 /* CONTACT-SECTION */
@@ -197,6 +141,39 @@
 .Contact-image {
   width: 400px;
 }
+
+/* MEDIA QUERIES */
+/* Collected at the bottom to avoid duplicate code passages */
+/* and to avoid confusion with duplicate size declarations */
+
+@media only screen and (max-width: 999px) {
+  .Reasons-grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .Reasons-grid-item {
+    img {
+      @-moz-document url-prefix() {
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Support-container {
+    grid-template-columns: 1fr;
+    margin-top: 1em;
+  }
+
+  .Support-image-item {
+    img {
+      display: none;
+    }
+  }
+}
+
 @media only screen and (max-width: 750px) {
   .Contact-grid {
     grid-template-columns: 1fr;
@@ -207,12 +184,55 @@
       align-items: center;
       grid-row: 2;
     }
+
     div:nth-child(2) {
       grid-row: 1;
     }
   }
+
   .Contact-image {
     max-width: 100%;
   }
 
+  .Hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .Hero-container__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Reasons-container {
+    margin-top: 1em;
+  }
+
+  .Contact-container {
+    margin-top: 1em;
+  }
+
+  .Reasons-grid-item {
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      align-self: flex-start;
+    }
+  }
+
+  .Quote-container {
+    margin-top: 1em;
+    padding: 0.5em;
+  }
+
+  .Quote-paragraph {
+    font-size: 1.2em;
+  }
 }
