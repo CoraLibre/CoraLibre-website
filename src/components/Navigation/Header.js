@@ -17,9 +17,6 @@ const Header = ({location}) => {
                         <Link to="/#reasons">Gründe</Link>
                     </li>
                     <li>
-                        <Link to="/#goals">Ziele</Link>
-                    </li>
-                    <li>
                         <Link to="/#support">Unterstützung</Link>
                     </li>
                     <li>
@@ -37,9 +34,6 @@ const Header = ({location}) => {
                 <ul>
                     <li>
                         <AnchorLink href="#reasons">Gründe</AnchorLink>
-                    </li>
-                    <li>
-                        <AnchorLink href="#goals">Ziele</AnchorLink>
                     </li>
                     <li>
                         <AnchorLink href="#support">Unterstützung</AnchorLink>

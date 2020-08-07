@@ -51,7 +51,7 @@ const ReasonsSection = () => {
                     </div>
                 </div>
             </div>
-            <small>* Voraussetzung ist ein Android-Smartphone, welches über eine Bluetooth LE Unterstützung verfügt.</small>
+            <small>*Voraussetzung ist ein Android-Smartphone, welches über eine Bluetooth LE Unterstützung verfügt.</small>
         </div>
     );
 };

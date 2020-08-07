@@ -87,6 +87,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2em;
+  margin-bottom: 2em;
+}
+
+.Reasons-goal-section {
+  background-color: white;
+  padding: 1em;
+  margin-top: 2em;
 }
 
 .Reasons-grid-item {
@@ -147,6 +154,7 @@
   grid-template-columns: 1fr 1fr;
   color: white;
   background-color: $lapislazuli;
+  margin-top: 3em;
 }
 
 .Support-text-item {
@@ -176,6 +184,7 @@
 
 .Contact-container {
   padding: 2em;
+  margin-top: 3em;
 }
 
 .Contact-grid {

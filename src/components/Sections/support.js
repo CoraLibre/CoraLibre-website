@@ -13,7 +13,7 @@ const SupportSection = () => {
                     Entwickler angesprochen fühlst, zögere nicht und nimm Kontakt zu uns auf.</p>
                 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/CoraLibre/"
                       className="button white-button">
-                    Zum Github-Verzeichnis
+                    Zum Projekt
                 </a></p>
             </div>
             <div className="Support-image-item">
