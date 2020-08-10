@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'gatsby'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import placeholder from "../../assets/images/placeholder.png"
+import Scrollspy from 'react-scrollspy'
 
 
 const Header = ({location}) => {
@@ -33,8 +34,10 @@ const Header = ({location}) => {
                 <Link to="/">
                     <img src={placeholder} alt="CoraLibre Logo" className="logo-image"/>
                 </Link>
-
-                    <ul>
+                <Scrollspy items={ ['quote', 'reasons', 'support', 'contact'] } currentClassName="is-current-section" scrolledPastClassName ="scrolled-past-section" offset={-250} className="scrollspy-container">
+                        <li>
+                            <AnchorLink href="#quote"/>
+                        </li>
                         <li>
                             <AnchorLink href="#reasons">Warum?</AnchorLink>
                         </li>
@@ -44,7 +47,7 @@ const Header = ({location}) => {
                         <li>
                             <AnchorLink href="#contact">Kontakt</AnchorLink>
                         </li>
-                    </ul>
+                    </Scrollspy>
             </div>
         );
 }

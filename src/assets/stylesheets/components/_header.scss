@@ -6,12 +6,25 @@
   z-index: 3;
 }
 
+.is-current-section {
+  a{
+    color: $pine-green !important;
+  }
+}
+.scrolled-past-section {
+  a{
+    color: $rich-black !important;
+  }
+}
+
+
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 5.5em;
   margin: 0 auto;
+  max-width: 1200px;
 
   ul {
     list-style: none;
