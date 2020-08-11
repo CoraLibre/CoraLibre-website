@@ -6,7 +6,7 @@ import old_icon from "../../assets/images/old_icon.png"
 
 const ReasonsSection = () => {
     return (
-        <div className="Reasons-container margin-left" id='reasons'>
+        <div className="Reasons-container" id='reasons'>
             <small className="subtitle white">Warum CoraLibre?</small>
             <h2>4 Gründe für die CoraLibre-App:</h2>
             <div className="Reasons-grid">

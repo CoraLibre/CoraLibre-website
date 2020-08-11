@@ -4,7 +4,7 @@ import idea_image from "../../assets/images/ideas.png"
 
 const ContactSection = () => {
     return (
-        <div className="Contact-container margin-left" id='contact'>
+        <div className="Contact-container" id='contact'>
             <div className="Contact-grid">
                 <div>
                     <img className="Contact-image" src={idea_image} alt="Illustration von einem Mann, dem Ideen durch den Kopf gehen"/>

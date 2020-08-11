@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 const HeroSection = () => {
     return (
         <div className="Hero-container" id='start'>
-            <div className="Hero-container__text margin-left">
+            <div className="Hero-container__text">
                 <h1>Die Alternative zur Corona-Warn-App ohne Google Services.</h1>
                 <p>
                     Eine transparente OpenSource-Lösung für ältere Smartphones und andere Betriebssysteme.</p>

@@ -4,7 +4,7 @@ import support_image from "../../assets/images/support.png"
 
 const SupportSection = () => {
     return (
-        <div className="Support-container margin-left" id='support'>
+        <div className="Support-container" id='support'>
             <div className="Support-text-item">
                 <small className="subtitle white">Unterstützung</small>
                 <h2>Auch du kannst uns dabei helfen, CoraLibre zu verwirklichen!</h2>
