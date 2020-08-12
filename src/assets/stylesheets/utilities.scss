@@ -1,9 +1,9 @@
 /* Links */
 
 .link {
-  color: $pine-green;
+  color: $ocean-green;
   text-decoration: none;
-  border-bottom: 1px solid $pine-green;
+  border-bottom: 1px solid $ocean-green;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -33,15 +33,15 @@
 }
 
 .green-button {
-  background-color: $pine-green;
-  border: 3px solid $pine-green;
+  background-color: $ocean-green;
+  border: 3px solid $ocean-green;
   color: $isabelline;
 }
 
 .green-button:hover {
   background-color: $isabelline;
-  color: $pine-green;
-  border: 3px solid $pine-green;
+  color: $ocean-green;
+  border: 3px solid $ocean-green;
 }
 
 /* Button classes for colored backgrounds */
@@ -49,7 +49,7 @@
 .white-button {
   background-color: $isabelline;
   border: 3px solid $isabelline;
-  color: $lapislazuli;
+  color: $allports-blue;
 }
 
 .white-button:hover {
@@ -62,7 +62,7 @@
 
 .subtitle {
   text-transform: uppercase;
-  color: $lapislazuli;
+  color: $allports-blue;
   font-weight: 800;
   letter-spacing: 1pt;
 }
@@ -85,7 +85,7 @@ for example to be used on colored backgrounds for better readability */
 }
 
 .grey-border-top {
-  border-top: 1px solid $burnished-brown;
+  border-top: 1px solid $shuttle-grey;
 }
 
 .white-border-top {
@@ -93,5 +93,5 @@ for example to be used on colored backgrounds for better readability */
 }
 
 .blue-border-top {
-  border-top: 1px solid $lapislazuli;
+  border-top: 1px solid $allports-blue;
 }
