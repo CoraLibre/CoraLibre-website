@@ -8,6 +8,7 @@ const ReasonsSection = () => {
     return (
         <div className="Reasons-container" id='reasons'>
             <small className="subtitle white">Warum CoraLibre?</small>
+            <hr className="line white-border-top"/>
             <h2>4 Gründe für die CoraLibre-App:</h2>
             <div className="Reasons-grid">
                 <div className="Reasons-grid-item">

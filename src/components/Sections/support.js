@@ -7,6 +7,7 @@ const SupportSection = () => {
         <div className="Support-container" id='support'>
             <div className="Support-text-item">
                 <small className="subtitle white">Unterstützung</small>
+                <hr className="line white-border-top"/>
                 <h2>Auch du kannst uns dabei helfen, CoraLibre zu verwirklichen!</h2>
                 <p>Die CoraLibre-App wird ehrenamtlich und durch Förderprojekte stetig weiterentwickelt.
                     Trotzdem brauchen wir eure Unterstützung und freuen uns über helfende Hände. Wenn du dich als

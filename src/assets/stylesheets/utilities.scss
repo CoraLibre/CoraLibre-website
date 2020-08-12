@@ -73,3 +73,25 @@ for example to be used on colored backgrounds for better readability */
 .white {
   color: white;
 }
+
+/* Short lines between titles and subtitles in sections */
+
+.line {
+  width: 50px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 1em 0;
+}
+
+.grey-border-top {
+  border-top: 1px solid $burnished-brown;
+}
+
+.white-border-top {
+  border-top: 1px solid white;
+}
+
+.blue-border-top {
+  border-top: 1px solid $lapislazuli;
+}
