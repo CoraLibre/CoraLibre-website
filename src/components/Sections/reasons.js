@@ -11,7 +11,7 @@ const ReasonsSection = () => {
             <h2>4 Gründe für die CoraLibre-App:</h2>
             <div className="Reasons-grid">
                 <div className="Reasons-grid-item">
-                    <img src={support_icon} alt="Support für andere Betriebssysteme"/>
+                    <div><img src={support_icon} alt="Support für andere Betriebssysteme"/></div>
                     <div className="Reasons-grid-item-text-wrapper">
                     <h3>Support für andere Betriebssysteme</h3>
                     <p>
@@ -20,7 +20,7 @@ const ReasonsSection = () => {
                     </div>
                 </div>
                 <div className="Reasons-grid-item">
-                    <img src={service_icon} alt="CoraLibre arbeitet mit eigenen Services"/>
+                    <div><img src={service_icon} alt="CoraLibre arbeitet mit eigenen Services"/></div>
                     <div className="Reasons-grid-item-text-wrapper">
 
                     <h3>Keine Google-Play-Services nötig</h3>
@@ -31,7 +31,7 @@ const ReasonsSection = () => {
                     </div>
                 </div>
                 <div className="Reasons-grid-item">
-                    <img src={old_icon} alt="Älteres Modell eines Smartphones"/>
+                    <div><img src={old_icon} alt="Älteres Modell eines Smartphones"/></div>
                     <div className="Reasons-grid-item-text-wrapper">
 
                     <h3>Auch ältere Smartphones unterstützt</h3>
@@ -41,7 +41,7 @@ const ReasonsSection = () => {
                     </div>
                 </div>
                 <div className="Reasons-grid-item">
-                    <img src={transparency_icon} alt="Transparenter Quellcode"/>
+                    <div><img src={transparency_icon} alt="Transparenter Quellcode"/></div>
                     <div className="Reasons-grid-item-text-wrapper">
 
                     <h3>Transparenter Quellcode</h3>
