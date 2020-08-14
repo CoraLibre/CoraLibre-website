@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-sass",
-  "description": "A Gatsby starter with Sass and no assumptions",
-  "version": "0.1.2",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "name": "CoraLibre",
+  "description": "Eine transparente OpenSource-Lösung und Alternative zur Corona-Warn-App ohne Google Services.",
+  "version": "1.0",
+  "author": "Theodora Milona <putzelfutzel@gmx.net>",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "gatsby": "^2.23.1",
