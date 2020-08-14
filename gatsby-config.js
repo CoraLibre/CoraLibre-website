@@ -1,6 +1,8 @@
 module.exports = {
     siteMetadata: {
         siteUrl: `https://www.coralibre.de`,
+        title: `CoraLibre`,
+        description: `Eine transparente OpenSource-Lösung und Alternative zur Corona-Warn-App ohne Google Services.`,
     },
     plugins: [
         'gatsby-plugin-resolve-src',

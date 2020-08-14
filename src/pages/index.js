@@ -15,8 +15,8 @@ const IndexPage = () => {
                 <meta charSet="utf-8" />
                 <html lang="de" />
                 <title>CoraLibre</title>
-                <meta name="description" content="Eine transparente OpenSource-Lösung und Alternative zur Corona-Warn-App für ältere Smartphones und andere Betriebssysteme ohne Google Services." />
-                <meta name="theme-color" content="#45B69C" />
+                <meta name="description" content="Eine transparente OpenSource-Lösung und Alternative zur Corona-Warn-App ohne Google Services." />
+                <meta name="theme-color" content="#1db5c4" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="keywords" content="CoraLibre, Corona-Warn-App, Google Play, Google Services, OpenSource, Alternative, OpenSource-Lösung, transparent" />
             </Helmet>
