@@ -45,12 +45,6 @@
     font-weight: 700;
   }
 
-  .logo-image {
-    height: auto;
-    max-width: 70%;
-    z-index: 1;
-  }
-
   a:hover {
     color: $ocean-green;
   }
@@ -67,18 +61,59 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+.logo-large {
+  height: auto;
+  max-width: 30%;
+  z-index: 1;
+  display: block;
+}
+
+.logo-small {
+  height: auto;
+  max-width: 50%;
+  padding: 0.5em 1em;
+  z-index: 1;
+  display: none;
+}
+
+@media only screen and (max-width: 706px) {
   .container {
     white-space: nowrap;
     height: 5.5em;
+    ul {
+      padding: 0 0.5em 0 0;
+    }
+  }
+  .logo-large {
+    display: none;
+  }
+  .logo-small {
+    display: block;
+    padding: 1em 0.25em 1em;
+    max-width: 28%;
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 414px) {
+  .logo-small {
+    max-width: 48%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
   li {
     a {
       font-size: 0.9rem;
     }
+  }
+  .logo-small {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .logo-small {
+    max-width: 98%;
   }
 }
 
