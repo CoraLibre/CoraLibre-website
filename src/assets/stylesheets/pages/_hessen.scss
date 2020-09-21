@@ -1,44 +1,10 @@
-.Hessen-container {
-  padding: 2em;
-  background-color: $ocean-green;
-  color: white;
-  margin-top: 3em;
-}
-
-.Hessen-link {
-  border: 0;
-}
-
-.Hessen-badge-container {
-  position: relative;
-  background-color: white;
-}
-
 .Hessen-badge {
-  position: absolute;
-  width: 150px;
-  bottom: 20px;
-  right: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: block;
+  max-width: 60px;
+  float: right;
 }
 
-.Hessen-mobile-text {
-  display: none;
-}
-
-/* MEDIA QUERIES */
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   .Hessen-badge {
-    display: none;
-  }
-  .Hessen-mobile-text {
-    display: block;
-  }
-
-  .Hessen-mobile-badge {
-    width: 100px;
+    max-width: 40px;
   }
 }

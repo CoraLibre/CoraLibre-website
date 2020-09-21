@@ -4,6 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import logo_large from "../../assets/images/logo_large-version.png"
 import logo_small from "../../assets/images/logo_small-version.png"
 import Scrollspy from 'react-scrollspy'
+import hessen from "../../assets/images/hessen.png";
 
 
 const Header = ({location}) => {
@@ -28,7 +29,9 @@ const Header = ({location}) => {
                         <Link to="/#contact">Kontakt</Link>
                     </li>
                     <li>
-                        <Link to="/#hessen">Förderung</Link>
+                        <Link to="/#hessen">
+                            <img src={hessen} alt="Gefördert durch die Landesregierung Hessen" className="Hessen-badge"/>
+                        </Link>
                     </li>
                 </ul>
             </div>
@@ -50,8 +53,9 @@ const Header = ({location}) => {
                     <li>
                         <AnchorLink href="#contact">Kontakt</AnchorLink>
                     </li>
-                    <li>
-                        <AnchorLink href="#hessen">Förderung</AnchorLink>
+                    <li><AnchorLink href="#hessen">
+                        <img src={hessen} alt="Gefördert durch die Landesregierung Hessen" className="Hessen-badge"/>
+                    </AnchorLink>
                     </li>
                 </Scrollspy>
             </div>

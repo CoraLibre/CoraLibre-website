@@ -30,18 +30,19 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    float: right;
+    display: flex;
+    align-items: center;
   }
 
   li {
     display: inline-block;
     float: left;
+    padding: 0 0.5em;
   }
 
   a {
     display: block;
     color: $rich-black;
-    padding: 0 .5em;
     text-decoration: none;
     transition: color 0.3s;
     font-weight: 700;
@@ -86,7 +87,7 @@
       padding: 0;
     }
     li {
-      padding: 2px 4px;
+      padding: 0.25em;
     }
   }
   .logo-large {
@@ -110,9 +111,6 @@
     a {
       font-size: 0.9rem;
     }
-  }
-  .logo-small {
-    max-width: 30%;
   }
 }
 
