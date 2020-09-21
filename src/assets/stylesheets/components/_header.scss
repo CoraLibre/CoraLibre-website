@@ -30,10 +30,12 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    float: right;
   }
 
   li {
     display: inline-block;
+    float: left;
   }
 
   a {
@@ -81,7 +83,10 @@
     white-space: nowrap;
     height: 5.5em;
     ul {
-      padding: 0 0.5em 0 0;
+      padding: 0;
+    }
+    li {
+      padding: 2px 4px;
     }
   }
   .logo-large {
@@ -107,13 +112,7 @@
     }
   }
   .logo-small {
-    max-width: 60%;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .logo-small {
-    max-width: 98%;
+    max-width: 30%;
   }
 }
 
