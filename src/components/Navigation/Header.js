@@ -27,6 +27,9 @@ const Header = ({location}) => {
                     <li>
                         <Link to="/#contact">Kontakt</Link>
                     </li>
+                    <li>
+                        <Link to="/#hessen">Förderung</Link>
+                    </li>
                 </ul>
             </div>
         );
@@ -37,7 +40,7 @@ const Header = ({location}) => {
                     <img src={logo_large} alt="CoraLibre Logo" className="logo-large"/>
                     <img src={logo_small} alt="CoraLibre Logo" className="logo-small"/>
                 </Link>
-                <Scrollspy items={ ['reasons', 'support', 'contact'] } currentClassName="is-current-section" scrolledPastClassName ="scrolled-past-section" offset={0} className="scrollspy-container">
+                <Scrollspy items={ ['reasons', 'support', 'contact', 'hessen'] } currentClassName="is-current-section" scrolledPastClassName ="scrolled-past-section" offset={0} className="scrollspy-container">
                     <li>
                         <AnchorLink href="#reasons">Warum?</AnchorLink>
                     </li>
@@ -46,6 +49,9 @@ const Header = ({location}) => {
                     </li>
                     <li>
                         <AnchorLink href="#contact">Kontakt</AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink href="#hessen">Förderung</AnchorLink>
                     </li>
                 </Scrollspy>
             </div>

@@ -7,6 +7,7 @@ import ContactSection from "../components/Sections/contact"
 import SupportSection from "../components/Sections/support"
 import HeroSection from "../components/Sections/hero"
 import QuoteSection from "../components/Sections/quote"
+import HessenSection from "../components/Sections/hessen"
 
 const IndexPage = () => {
     return (
@@ -25,6 +26,7 @@ const IndexPage = () => {
             <ReasonsSection/>
             <SupportSection/>
             <ContactSection/>
+            <HessenSection/>
         </Layout>
     );
 };
