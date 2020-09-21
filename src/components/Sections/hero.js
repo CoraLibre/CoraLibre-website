@@ -12,6 +12,11 @@ const HeroSection = () => {
             </AnchorLink>
             <div className="Hero-container" id='start'>
                 <div className="Hero-container__text">
+                    <div className="Hessen-mobile-text">
+                        <AnchorLink href="#hessen">
+                            <img src={hessen} alt="Gefördert durch die Landesregierung Hessen" className="Hessen-mobile-badge"/>
+                        </AnchorLink>
+                    </div>
                     <h1>Die Alternative zur Corona-Warn-App ohne Google Services.</h1>
                     <hr className="line grey-border-top"/>
                     <p>

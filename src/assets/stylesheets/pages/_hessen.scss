@@ -21,14 +21,24 @@
   right: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  display: block;
+}
+
+.Hessen-mobile-text {
+  display: none;
 }
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 600px) {
   .Hessen-badge {
+    display: none;
+  }
+  .Hessen-mobile-text {
+    display: block;
+  }
+
+  .Hessen-mobile-badge {
     width: 100px;
-    bottom: 0;
-    right: 0;
   }
 }
