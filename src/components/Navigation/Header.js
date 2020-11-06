@@ -9,10 +9,10 @@ import {Link, Trans, useI18next, useTranslation} from 'gatsby-plugin-react-i18ne
 
 const Header = ({location}) => {
     const {t} = useTranslation();
-    const {languages, originalPath} = useI18next();
+    const {originalPath} = useI18next();
     const pathname = location.href ? location.href : '';
 
-    if (pathname.includes(`datenschutz`)) {
+    if (pathname.includes(`privacy`)) {
         return (
             <div className="container">
                 <Link to="/">
@@ -20,23 +20,30 @@ const Header = ({location}) => {
                     <img src={logo_small} alt="CoraLibre Logo" className="logo-small"/>
                 </Link>
 
-                <ul>
-                    <li>
-                        <Link to="/#reasons"><Trans>Warum?</Trans></Link>
-                    </li>
-                    <li>
-                        <Link to="/#support"><Trans>Unterstützung</Trans></Link>
-                    </li>
-                    <li>
-                        <Link to="/#contact"><Trans>Kontakt</Trans></Link>
-                    </li>
-                    <li>
-                        <Link to="/#hessen">
-                            <img src={hessen} alt={t('Gefördert durch die Landesregierung Hessen')}
-                                 className="Hessen-badge"/>
-                        </Link>
-                    </li>
-                </ul>
+                <div style={{display: 'flex'}}>
+                    <ul>
+                        <li>
+                            <Link to="/#reasons"><Trans>Warum?</Trans></Link>
+                        </li>
+                        <li>
+                            <Link to="/#support"><Trans>Unterstützung</Trans></Link>
+                        </li>
+                        <li>
+                            <Link to="/#contact"><Trans>Kontakt</Trans></Link>
+                        </li>
+                        <li>
+                            <Link to="/#hessen">
+                                <img src={hessen} alt={t('Gefördert durch die Landesregierung Hessen')}
+                                     className="Hessen-badge"/>
+                            </Link>
+                        </li>
+                    </ul>
+                    <div
+                        style={{display: 'flex', alignItems: 'center', textTransform: 'uppercase', fontSize: '0.8em',}}>
+                        <Link to={originalPath} language="de">de</Link>&nbsp;|&nbsp;<Link to={originalPath}
+                                                                                          language="en">en</Link>
+                    </div>
+                </div>
             </div>
         );
     } else
@@ -47,33 +54,31 @@ const Header = ({location}) => {
                     <img src={logo_small} alt="CoraLibre Logo" className="logo-small"/>
                 </Link>
 
-                <Scrollspy items={['reasons', 'support', 'contact', 'hessen']}
-                           currentClassName="is-current-section" scrolledPastClassName="scrolled-past-section"
-                           offset={0} className="scrollspy-container">
-                    <li>
-                        <AnchorLink href="#reasons"><Trans>Warum?</Trans></AnchorLink>
-                    </li>
-                    <li>
-                        <AnchorLink href="#support"><Trans>Unterstützung</Trans></AnchorLink>
-                    </li>
-                    <li>
-                        <AnchorLink href="#contact"><Trans>Kontakt</Trans></AnchorLink>
-                    </li>
-                    <li><AnchorLink href="#hessen">
-                        <img src={hessen} alt={t('Gefördert durch die Landesregierung Hessen')}
-                             className="Hessen-badge"/>
-                    </AnchorLink>
-                    </li>
-                </Scrollspy>
-                <ul className="languages">
-                    {languages.map((lng) => (
-                        <li key={lng}>
-                            <Link to={originalPath} language={lng}>
-                                {lng}
-                            </Link>
+                <div style={{display: 'flex'}}>
+                    <Scrollspy items={['reasons', 'support', 'contact', 'hessen']}
+                               currentClassName="is-current-section" scrolledPastClassName="scrolled-past-section"
+                               offset={0} className="scrollspy-container">
+                        <li>
+                            <AnchorLink href="#reasons"><Trans>Warum?</Trans></AnchorLink>
                         </li>
-                    ))}
-                </ul>
+                        <li>
+                            <AnchorLink href="#support"><Trans>Unterstützung</Trans></AnchorLink>
+                        </li>
+                        <li>
+                            <AnchorLink href="#contact"><Trans>Kontakt</Trans></AnchorLink>
+                        </li>
+                        <li><AnchorLink href="#hessen">
+                            <img src={hessen} alt={t('Gefördert durch die Landesregierung Hessen')}
+                                 className="Hessen-badge"/>
+                        </AnchorLink>
+                        </li>
+                    </Scrollspy>
+                    <div
+                        style={{display: 'flex', alignItems: 'center', textTransform: 'uppercase', fontSize: '0.8em',}}>
+                        <Link to={originalPath} language="de">de</Link>&nbsp;|&nbsp;<Link to={originalPath}
+                                                                                          language="en">en</Link>
+                    </div>
+                </div>
             </div>
         );
 }

@@ -9,7 +9,7 @@ const Footer = () => {
             </h3>
             <hr className="line white-border-top"/>
             <p><small>
-                <Link to="/datenschutz"><Trans>Impressum & Datenschutzerklärung</Trans></Link><br/>
+                <Link to="/privacy"><Trans>Impressum & Datenschutzerklärung</Trans></Link><br/>
                 &copy; {new Date().getFullYear()} CoraLibre<br/>
             </small>
             </p>

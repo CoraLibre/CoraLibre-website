@@ -7,12 +7,13 @@
 }
 
 .is-current-section {
-  a{
+  a {
     color: $ocean-green !important;
   }
 }
+
 .scrolled-past-section {
-  a{
+  a {
     color: $rich-black !important;
   }
 }
@@ -25,6 +26,7 @@
   height: 5.5em;
   margin: 0 auto;
   max-width: 1200px;
+  padding: 0 0.5rem;
 
   ul {
     list-style: none;
@@ -83,9 +85,11 @@
   .container {
     white-space: nowrap;
     height: 5.5em;
+
     ul {
       padding: 0;
     }
+
     li {
       padding: 0.25em;
     }
