@@ -5,7 +5,7 @@ const HessenSection = () => {
     return (
         <div className="Hessen-container" id='hessen'>
             <div>
-                <small className="subtitle white"><Trans>Förderung</Trans></small>
+                <small className="subtitle white"><Trans>FÖRDERUNG</Trans></small>
                 <hr className="line white-border-top"/>
                 <h2><Trans>Dieses Projekt wird von der hessischen Landesregierung gefördert.</Trans></h2>
                 <p><Trans>Das Projekt CoraLibre wird finanziell durch das Land Hessen im Zeitraum vom 10.06.2020 bis 31.12.2020 unterstützt. Ziel des Vorhabens ist der Aufbau eines modernen Betriebs um die Verfügbarkeit der App zu gewährleisten sowie die internationale Vernetzung mit anderen Contract Tracing Apps voranzutreiben.</Trans></p>

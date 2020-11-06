@@ -8,7 +8,7 @@ import {Trans} from 'gatsby-plugin-react-i18next'
 const ReasonsSection = () => {
     return (
         <div className="Reasons-container" id='reasons'>
-            <small className="subtitle white"><Trans>Warum CoraLibre?</Trans></small>
+            <small className="subtitle white"><Trans>WARUM CORALIBRE?</Trans></small>
             <hr className="line white-border-top"/>
             <h2><Trans>4 Gründe für die CoraLibre-App:</Trans></h2>
             <div className="Reasons-grid">
