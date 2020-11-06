@@ -10,6 +10,22 @@ module.exports = {
         'gatsby-plugin-react-helmet',
         'gatsby-plugin-sitemap',
         {
+            resolve: `gatsby-plugin-react-i18next`,
+            options: {
+                path: `${__dirname}/locales`,
+                languages: [`en`, `de`],
+                defaultLanguage: `de`,
+
+                i18nextOptions: {
+                    interpolation: {
+                        escapeValue: false // not needed for react as it escapes by default
+                    },
+                    keySeparator: false,
+                    nsSeparator: false
+                }
+            }
+        },
+        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `images`,

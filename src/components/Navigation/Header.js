@@ -1,13 +1,15 @@
 import React from 'react'
-import {Link} from 'gatsby'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import logo_large from "../../assets/images/logo_large-version.png"
 import logo_small from "../../assets/images/logo_small-version.png"
 import Scrollspy from 'react-scrollspy'
-import hessen from "../../assets/images/hessen.png";
+import hessen from "../../assets/images/hessen.png"
+import {Link, Trans, useI18next, useTranslation} from 'gatsby-plugin-react-i18next'
 
 
 const Header = ({location}) => {
+    const {t} = useTranslation();
+    const {languages, originalPath} = useI18next();
     const pathname = location.href ? location.href : '';
 
     if (pathname.includes(`datenschutz`)) {
@@ -20,17 +22,18 @@ const Header = ({location}) => {
 
                 <ul>
                     <li>
-                        <Link to="/#reasons">Warum?</Link>
+                        <Link to="/#reasons"><Trans>Warum?</Trans></Link>
                     </li>
                     <li>
-                        <Link to="/#support">Unterstützung</Link>
+                        <Link to="/#support"><Trans>Unterstützung</Trans></Link>
                     </li>
                     <li>
-                        <Link to="/#contact">Kontakt</Link>
+                        <Link to="/#contact"><Trans>Kontakt</Trans></Link>
                     </li>
                     <li>
                         <Link to="/#hessen">
-                            <img src={hessen} alt="Gefördert durch die Landesregierung Hessen" className="Hessen-badge"/>
+                            <img src={hessen} alt={t('Gefördert durch die Landesregierung Hessen')}
+                                 className="Hessen-badge"/>
                         </Link>
                     </li>
                 </ul>
@@ -43,21 +46,34 @@ const Header = ({location}) => {
                     <img src={logo_large} alt="CoraLibre Logo" className="logo-large"/>
                     <img src={logo_small} alt="CoraLibre Logo" className="logo-small"/>
                 </Link>
-                <Scrollspy items={ ['reasons', 'support', 'contact', 'hessen'] } currentClassName="is-current-section" scrolledPastClassName ="scrolled-past-section" offset={0} className="scrollspy-container">
+
+                <Scrollspy items={['reasons', 'support', 'contact', 'hessen']}
+                           currentClassName="is-current-section" scrolledPastClassName="scrolled-past-section"
+                           offset={0} className="scrollspy-container">
                     <li>
-                        <AnchorLink href="#reasons">Warum?</AnchorLink>
+                        <AnchorLink href="#reasons"><Trans>Warum?</Trans></AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink href="#support">Unterstützung</AnchorLink>
+                        <AnchorLink href="#support"><Trans>Unterstützung</Trans></AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink href="#contact">Kontakt</AnchorLink>
+                        <AnchorLink href="#contact"><Trans>Kontakt</Trans></AnchorLink>
                     </li>
                     <li><AnchorLink href="#hessen">
-                        <img src={hessen} alt="Gefördert durch die Landesregierung Hessen" className="Hessen-badge"/>
+                        <img src={hessen} alt={t('Gefördert durch die Landesregierung Hessen')}
+                             className="Hessen-badge"/>
                     </AnchorLink>
                     </li>
                 </Scrollspy>
+                <ul className="languages">
+                    {languages.map((lng) => (
+                        <li key={lng}>
+                            <Link to={originalPath} language={lng}>
+                                {lng}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
             </div>
         );
 }

@@ -1,14 +1,14 @@
 import React from "react"
-
+import {Trans} from 'gatsby-plugin-react-i18next'
 
 const HessenSection = () => {
     return (
         <div className="Hessen-container" id='hessen'>
             <div>
-                <small className="subtitle white">Förderung</small>
+                <small className="subtitle white"><Trans>Förderung</Trans></small>
                 <hr className="line white-border-top"/>
-                <h2>Dieses Projekt wird von der hessischen Landesregierung gefördert.</h2>
-                <p>Das Projekt CoraLibre wird finanziell durch das Land Hessen im Zeitraum vom 10.06.2020 bis 31.12.2020 unterstützt. Ziel des Vorhabens ist der Aufbau eines modernen Betriebs um die Verfügbarkeit der App zu gewährleisten sowie die internationale Vernetzung mit anderen Contract Tracing Apps voranzutreiben.</p>
+                <h2><Trans>Dieses Projekt wird von der hessischen Landesregierung gefördert.</Trans></h2>
+                <p><Trans>Das Projekt CoraLibre wird finanziell durch das Land Hessen im Zeitraum vom 10.06.2020 bis 31.12.2020 unterstützt. Ziel des Vorhabens ist der Aufbau eines modernen Betriebs um die Verfügbarkeit der App zu gewährleisten sowie die internationale Vernetzung mit anderen Contract Tracing Apps voranzutreiben.</Trans></p>
             </div>
 
         </div>

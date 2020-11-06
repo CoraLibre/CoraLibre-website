@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "gatsby"
+import {Link, Trans} from 'gatsby-plugin-react-i18next'
 
 const Footer = () => {
     return (
@@ -9,7 +9,7 @@ const Footer = () => {
             </h3>
             <hr className="line white-border-top"/>
             <p><small>
-                <Link to="/datenschutz">Impressum & Datenschutzerklärung</Link><br/>
+                <Link to="/datenschutz"><Trans>Impressum & Datenschutzerklärung</Trans></Link><br/>
                 &copy; {new Date().getFullYear()} CoraLibre<br/>
             </small>
             </p>
