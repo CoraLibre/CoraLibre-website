@@ -1,7 +1,6 @@
 .Preview-container {
     padding: 0em;
     background-color: white;
-    color: white;
     margin-top: 3em;
 
     .button{
@@ -9,11 +8,16 @@
         display: block;
         width: 20%;
     }
+    span{
+        width: 30%;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
 }
 .download-button{
     width:30%;
     height: 60px;
-
 }
 
 
