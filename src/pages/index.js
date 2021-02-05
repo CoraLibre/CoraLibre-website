@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import ReasonsSection from "../components/Sections/reasons"
 import ContactSection from "../components/Sections/contact"
 import SupportSection from "../components/Sections/support"
+import PreviewSection from "../components/Sections/preview"
 import HeroSection from "../components/Sections/hero"
 import QuoteSection from "../components/Sections/quote"
 import HessenSection from "../components/Sections/hessen"
@@ -28,6 +29,8 @@ const IndexPage = () => {
             <QuoteSection/>
             <ReasonsSection/>
             <SupportSection/>
+            <PreviewSection/>
+            <HessenSection/>
             <ContactSection/>
             <HessenSection/>
         </Layout>

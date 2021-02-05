@@ -1,0 +1,22 @@
+.Preview-container {
+    padding: 0em;
+    background-color: white;
+    color: white;
+    margin-top: 3em;
+
+    .button{
+        margin: 40px auto 0;
+        display: block;
+        width: 20%;
+    }
+}
+.download-button{
+    width:30%;
+    height: 60px;
+
+}
+
+
+@media only screen and (max-width: 750px) {
+
+}
