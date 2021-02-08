@@ -11,7 +11,7 @@ const HessenSection = () => {
                 <img src={AppImageOne} alt={('Open-Source-Implementierung der Google-Tracing-API')}/>
                 <img src={AppImageTwo} alt={('Open-Source-Implementierung der Google-Tracing-API')}/>
                 <img src={AppImageThree} alt={('Open-Source-Implementierung der Google-Tracing-API')}/>
-                <a target="_blank" rel="noopener noreferrer" download href="../../assests/download/CoraLibre.apk"
+                <a target="_blank" rel="noopener noreferrer" download href="../../assets/download/CoraLibre.apk"
                    className="button green-button">Download CoraLibre.apk</a>
                 <span><Trans>Die CoraLibre App befindet sich noch in der Entwicklung, Abstürze und Fehler können an dieser Stelle noch auftreten.</Trans></span>
             </div>
