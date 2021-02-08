@@ -32,7 +32,6 @@ const IndexPage = () => {
             <PreviewSection/>
             <HessenSection/>
             <ContactSection/>
-            <HessenSection/>
         </Layout>
     );
 };
